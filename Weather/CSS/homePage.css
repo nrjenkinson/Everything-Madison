@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+a:link, .link-box:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited, .link-box:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover, .link-box:hover {
+    color: red;
+    text-decoration: none;
+}
+a:active, .link-box:active {
+    color: red;
+    text-decoration: none;
+}
+span {
+    padding-left: 25%;
+}
+.box {
+    border: 1px solid black;
+    background-color: grey;
+    box-shadow: 0px 0px 10px rgba(220, 20, 60, 0.9);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto 0;
+    width: fit-content;
+    padding: 10px 20px;
+}
+.topLinks{
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+    margin: 0 auto;
+    font-family: "Times New Roman", Times, serif;
+}
+.link-box {
+    padding: 10px 20px;
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: fit-content;
+    box-shadow: 0px 0px 10px rgba(220, 20, 60, 0.9);
+}
+.tempLabel {
+    display:flex;
+    align-items: center;
+}
+.centerRect {
+    width: 90%; /* Width of the rectangle */
+    max-width: 1200px;
+    background-color: grey; /* Background color of the rectangle */
+    border-radius: 40px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(220, 20, 60, 0.9);
+    font-family: "Times New Roman", Times, serif;
+    margin-right: 50%;
+
+    
+}
+.mainLine {
+    display: flex;
+    align-items: center;
+    height: 90%;
+    max-height: 800px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.graph-title {
+    position: relative;
+    left: 31%;
+    transform: translateY(-515%);
+    font-size: 18px;
+    color: black;
+    white-space: nowrap;
+    font-family: "Times New Roman", Times, serif;
+}
+#hourlyTemp {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(220, 20, 60, 0.9);
+    width: 100%;
+}
+#icon {
+    width: 175px;
+    height: 175px;
+}
+#outside {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+#temp {
+    font-size: 24px;
+    color: white;
+    margin: 0;
+}
