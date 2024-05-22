@@ -1,5 +1,5 @@
 
-                const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=43.073051&lon=-89.401230&units=imperial&appid=a7d28f53097ddf3d05f36899c636753f`;
+                const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=43.073051&lon=-89.401230&units=imperial&appid=APITOKEN`;
             function updateWeather() {    
                 fetch(apiUrl)
                     .then(response => {
