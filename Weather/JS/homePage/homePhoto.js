@@ -3,8 +3,7 @@
 UNDER CONSTRUCTION // FINISH ONCE URL SET UP
 
 const userId = 'nolanjenkinson'; // User ID of the Instagram account you want to fetch photos from
-const accessToken = 'EAANu0jZB86bkBOw2LCQrd0Tqb4WnGr0MvVRrvBUyI2DIiMuo76g6NRZAqZAfXB6E1q0uCRmEGvIkkVIZBlZBFcyScwasZBJwUrrE4HkAU2CaSZAnNd0ZByR80AZBiDbfqnlqUCGXfZAsBP2425nFpYcc1ZAo4LijKEK0TUvIeZAaHh5PvcXJZAZAxIkkhayJa7OVX3hTBIbL5TAlZBkZBoZAf0H7TMAZDZD'; // Access token obtained after authentication
-
+const accessToken = 
 fetch(`https://graph.instagram.com/${userId}/media?fields=id,media_url,caption&access_token=${accessToken}`)
   .then(response => response.json())
   .then(data => {
